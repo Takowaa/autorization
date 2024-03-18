@@ -16,7 +16,7 @@ const Login = () => {
         .required(),
     }),
     onSubmit: (values) => {
-      console.log(values, 'form');
+      console.log(values);
     },
   });
   return (
